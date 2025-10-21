@@ -1,0 +1,41 @@
+## Changing l2 loss to cross entropy, addding initialization and Changing Learning Rate to 0.1
+
+Starting Linear Classifier evaluation...
+Training samples: 48000
+Test samples: 12000
+Feature dimensions: 784
+
+Evaluating NumPy Linear Classifier...
+NumPy Linear - Accuracy: 0.8501, Fit time: 24.17s, Predict time: 0.03s
+
+Evaluating PyTorch Linear Classifier...
+PyTorch Linear - Accuracy: 0.8414, Fit time: 3.89s, Predict time: 0.00s
+
+Results:
+Numpy: Accuracy=0.8501, Fit=24.17s, Predict=0.03s
+Pytorch: Accuracy=0.8414, Fit=3.89s, Predict=0.00s
+
+
+## Using the best Learning Rate
+
+
+Using optimal learning rate: 0.5
+
+============================================================
+FINAL LINEAR CLASSIFIER EVALUATION
+============================================================
+Starting Linear Classifier evaluation...
+Training samples: 48000
+Test samples: 12000
+Feature dimensions: 784
+Using learning rate: 0.5
+
+Evaluating NumPy Linear Classifier...
+NumPy Linear - Accuracy: 0.8888, Fit time: 23.11s, Predict time: 0.03s
+
+Evaluating PyTorch Linear Classifier...
+PyTorch Linear - Accuracy: 0.8910, Fit time: 3.71s, Predict time: 0.00s
+
+Results:
+Numpy: Accuracy=0.8888, Fit=23.11s, Predict=0.03s
+Pytorch: Accuracy=0.8910, Fit=3.71s, Predict=0.00s

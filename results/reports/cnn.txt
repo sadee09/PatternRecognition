@@ -1,0 +1,25 @@
+python cnn_classifier.py 
+Loading MNIST data for CNN...
+Starting CNN evaluation...
+Training samples: 48000
+Test samples: 12000
+Image shape: (1, 28, 28)
+CNN - Accuracy: 0.9903, Fit time: 432.29s, Predict time: 2.49s
+Class-wise accuracies:
+  Class 0: 0.9882
+  Class 1: 0.9918
+  Class 2: 0.9924
+  Class 3: 0.9902
+  Class 4: 0.9914
+  Class 5: 0.9815
+  Class 6: 0.9975
+  Class 7: 0.9920
+  Class 8: 0.9940
+  Class 9: 0.9832
+
+============================================================
+CNN RESULTS SUMMARY
+============================================================
+Overall Accuracy: 0.9903
+Fit Time: 432.29s
+Predict Time: 2.49s

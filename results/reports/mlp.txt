@@ -1,0 +1,105 @@
+python mlp_classifier.py 
+Loading MNIST data for MLP...
+Starting MLP evaluation...
+Training samples: 48000
+Test samples: 12000
+Architecture: 784 -> 256 -> 128 -> 10
+MLP - Accuracy: 0.9125, Fit time: 39.15s, Predict time: 0.02s
+Class-wise accuracies:
+  Class 0: 0.9637
+  Class 1: 0.9629
+  Class 2: 0.8800
+  Class 3: 0.8768
+  Class 4: 0.9401
+  Class 5: 0.8404
+  Class 6: 0.9535
+  Class 7: 0.9282
+  Class 8: 0.8778
+  Class 9: 0.8891
+
+============================================================
+MLP RESULTS SUMMARY
+============================================================
+Overall Accuracy: 0.9125
+Fit Time: 39.15s
+Predict Time: 0.02s
+
+Comparing different MLP architectures...
+
+Evaluating Architecture 1: [128]
+Starting MLP evaluation...
+Training samples: 48000
+Test samples: 12000
+Architecture: 784 -> 128 -> 10
+MLP - Accuracy: 0.9086, Fit time: 27.18s, Predict time: 0.01s
+Class-wise accuracies:
+  Class 0: 0.9620
+  Class 1: 0.9636
+  Class 2: 0.8733
+  Class 3: 0.8728
+  Class 4: 0.9289
+  Class 5: 0.8469
+  Class 6: 0.9527
+  Class 7: 0.9194
+  Class 8: 0.8709
+  Class 9: 0.8832
+
+Evaluating Architecture 2: [256, 128]
+Starting MLP evaluation...
+Training samples: 48000
+Test samples: 12000
+Architecture: 784 -> 256 -> 128 -> 10
+MLP - Accuracy: 0.9129, Fit time: 38.98s, Predict time: 0.02s
+Class-wise accuracies:
+  Class 0: 0.9646
+  Class 1: 0.9636
+  Class 2: 0.8826
+  Class 3: 0.8728
+  Class 4: 0.9341
+  Class 5: 0.8542
+  Class 6: 0.9527
+  Class 7: 0.9242
+  Class 8: 0.8744
+  Class 9: 0.8950
+
+Evaluating Architecture 3: [512, 256, 128]
+Starting MLP evaluation...
+Training samples: 48000
+Test samples: 12000
+Architecture: 784 -> 512 -> 256 -> 128 -> 10
+MLP - Accuracy: 0.9093, Fit time: 60.41s, Predict time: 0.05s
+Class-wise accuracies:
+  Class 0: 0.9671
+  Class 1: 0.9666
+  Class 2: 0.8884
+  Class 3: 0.8801
+  Class 4: 0.9315
+  Class 5: 0.8367
+  Class 6: 0.9510
+  Class 7: 0.9266
+  Class 8: 0.8624
+  Class 9: 0.8681
+
+Evaluating Architecture 4: [256, 256, 128, 64]
+Starting MLP evaluation...
+Training samples: 48000
+Test samples: 12000
+Architecture: 784 -> 256 -> 256 -> 128 -> 64 -> 10
+MLP - Accuracy: 0.8523, Fit time: 55.72s, Predict time: 0.03s
+Class-wise accuracies:
+  Class 0: 0.9418
+  Class 1: 0.9577
+  Class 2: 0.8314
+  Class 3: 0.8312
+  Class 4: 0.8938
+  Class 5: 0.7113
+  Class 6: 0.9248
+  Class 7: 0.8875
+  Class 8: 0.7137
+  Class 9: 0.8017
+
+Architecture Comparison:
+arch_1: [128] -> Accuracy: 0.9086
+arch_2: [256, 128] -> Accuracy: 0.9129
+arch_3: [512, 256, 128] -> Accuracy: 0.9093
+arch_4: [256, 256, 128, 64] -> Accuracy: 0.8523

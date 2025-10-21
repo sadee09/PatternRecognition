@@ -1,0 +1,26 @@
+python naive_bayes_classifier.py 
+Loading MNIST data for Naive Bayes...
+Starting Naive Bayes evaluation...
+Training samples: 48000
+Test samples: 12000
+Feature dimensions: 784
+Binary data range: [0.0, 1.0]
+Naive Bayes - Accuracy: 0.8312, Fit time: 0.04s, Predict time: 74.99s
+Class-wise accuracies:
+  Class 0: 0.8852
+  Class 1: 0.9451
+  Class 2: 0.8054
+  Class 3: 0.8002
+  Class 4: 0.8014
+  Class 5: 0.7223
+  Class 6: 0.8961
+  Class 7: 0.8460
+  Class 8: 0.7462
+  Class 9: 0.8378
+
+============================================================
+NAIVE BAYES RESULTS SUMMARY
+============================================================
+Overall Accuracy: 0.8312
+Fit Time: 0.04s
+Predict Time: 74.99s

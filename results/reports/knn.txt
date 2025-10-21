@@ -1,0 +1,15 @@
+python knn_classifier.py 
+Starting KNN evaluation...
+Training samples: 48000
+Test samples: 12000
+Feature dimensions: 784
+K values to test: [1, 3, 5]
+
+Evaluating KNN with k=1...
+KNN (k=1) - Accuracy: 0.9722, Fit time: 0.02s, Predict time: 568.59s
+
+Evaluating KNN with k=3...
+KNN (k=3) - Accuracy: 0.9731, Fit time: 0.02s, Predict time: 571.00s
+
+Evaluating KNN with k=5...
+KNN (k=5) - Accuracy: 0.9732, Fit time: 0.02s, Predict time: 602.48s
